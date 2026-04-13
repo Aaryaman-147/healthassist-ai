@@ -8,7 +8,7 @@ This project explores how AI can support early-stage health risk understanding i
 
 It integrates LLM reasoning with retrieval-based grounding and system-level safeguards to reduce hallucination and ensure outputs remain within a controlled medical scope.
 
-
+> _⚠️ This is a prototype for research and development purposes only. It is not a medical diagnosis tool._
 
 ## 🏗️ Architecture
 
