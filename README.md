@@ -21,9 +21,14 @@ This project is split into a modern web frontend and a highly resilient, Python-
   - Asynchronous Python API layer
   - Request validation and structured response formatting
   - Rate limiting and secure API handling
-* **Knowledge Base (ChromaDB & HuggingFace):** Local vector database that strictly grounds the AI in verified medical protocols (RAG).
-* **AI Engine (OpenRouter Waterfall):** An "unkillable" routing system that automatically falls back through a tier of instruction-tuned models (`gpt-oss-20b`, `gemma-4-31b`, `nemotron-3-nano`) if upstream servers are rate-limited.
-
+* **Knowledge Base (ChromaDB & HuggingFace):**
+  - Retrieval-Augmented Generation (RAG) pipeline
+  - Embedding-based retrieval of curated medical references
+  - Grounds model responses to reduce hallucination
+* **AI Engine (OpenRouter Waterfall):**
+  - Multi-model routing via OpenRouter
+  - Fallback strategy across multiple instruction-tuned models
+  - Ensures robustness under API rate limits and outages
 ## ✨ Key Features
 
 * **Semantic Guardrails:** Actively blocks non-medical prompts (e.g., coding requests, casual chat) and forces the AI to stay in character.
