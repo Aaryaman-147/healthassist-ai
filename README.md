@@ -14,7 +14,9 @@ It integrates LLM reasoning with retrieval-based grounding and system-level safe
 
 This project is split into a modern web frontend and a highly resilient, Python-driven AI engine.
 
-* **Frontend (Next.js & Tailwind CSS):** A clean, clinical user interface featuring conversational memory, auto-scrolling, and dynamic rendering of clinical scorecards.
+* **🔹 Frontend — Next.js + Tailwind CSS:**
+  - Clean, clinical UI with conversational interaction
+  - Dynamic rendering of structured risk scorecards
 * **Backend (FastAPI):** A secure, rate-limited backend that intercepts user prompts and enforces medical safety.
 * **Knowledge Base (ChromaDB & HuggingFace):** Local vector database that strictly grounds the AI in verified medical protocols (RAG).
 * **AI Engine (OpenRouter Waterfall):** An "unkillable" routing system that automatically falls back through a tier of instruction-tuned models (`gpt-oss-20b`, `gemma-4-31b`, `nemotron-3-nano`) if upstream servers are rate-limited.
