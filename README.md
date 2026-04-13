@@ -66,15 +66,18 @@ Recommended Actions:
 - Stay hydrated and avoid activities that exacerbate the pain  
 - Seek medical evaluation if the pain persists beyond a few more days or worsens  
 
-⚠️ Disclaimer: Not a medical diagnosis
+## ⚠️ Limitations
+
+- Not clinically validated or approved for medical use  
+- Relies on LLM reasoning, which may produce incorrect or incomplete outputs  
+- Knowledge base is limited to curated sources and not exhaustive  
+- Does not replace professional medical advice  
  
 ## 🔮 Future Work
 
 * Multilingual support for broader accessibility
 * Voice-based input for low-resource settings
 * Integration with validated medical datasets
-
-## ⚠️ Limitations
 
 - Not clinically validated or approved for medical use  
 - Relies on LLM reasoning, which may produce incorrect or incomplete outputs  
