@@ -17,7 +17,10 @@ This project is split into a modern web frontend and a highly resilient, Python-
 * **🔹 Frontend — Next.js + Tailwind CSS:**
   - Clean, clinical UI with conversational interaction
   - Dynamic rendering of structured risk scorecards
-* **Backend (FastAPI):** A secure, rate-limited backend that intercepts user prompts and enforces medical safety.
+* **Backend (FastAPI):**
+  - Asynchronous Python API layer
+  - Request validation and structured response formatting
+  - Rate limiting and secure API handling
 * **Knowledge Base (ChromaDB & HuggingFace):** Local vector database that strictly grounds the AI in verified medical protocols (RAG).
 * **AI Engine (OpenRouter Waterfall):** An "unkillable" routing system that automatically falls back through a tier of instruction-tuned models (`gpt-oss-20b`, `gemma-4-31b`, `nemotron-3-nano`) if upstream servers are rate-limited.
 
