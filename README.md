@@ -46,6 +46,26 @@ This project is split into a modern web frontend and a highly resilient, Python-
   - Automatically switches to backup models
   - Maintains consistent user experience
  
+## 🧪 Example Output
+
+Input:
+"I’ve had sharp lower back pain for 3 days"
+
+Output:
+Risk Level: Medium  
+Confidence: High  
+
+Possible Conditions:
+- Musculoskeletal strain  
+- Nerve irritation  
+
+Recommended Actions:
+- Apply heat  
+- Monitor symptoms  
+- Consult a doctor if persistent  
+
+⚠️ Disclaimer: Not a medical diagnosis
+ 
 ## 🔮 Future Work
 
 * Multilingual support for broader accessibility
